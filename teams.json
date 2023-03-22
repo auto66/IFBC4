@@ -1,23 +1,23 @@
 {
   "Group_A": [
-    "Germany 1 *",
-    "Italy 2",
-    "Hungary 1",
+    "Team A1",
+    "Team A2",
+    "Team A3",
     "Team A4",
     "Team A5",
     "Team A6"
   ],
   "Group_B": [
-    "Germany 2",
-    "Italy 1",
+    "Team B1",
+    "Team B2",
     "Team B3",
     "Team B4",
     "Team B5",
     "Team B6"
   ],
   "Group_C": [
-    "International 1",
-    "test 2",
+    "Team C1",
+    "Team C2",
     "Team C3",
     "Team C4",
     "Team C5",
