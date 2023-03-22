@@ -1,0 +1,83 @@
+{
+  "Group_A": [
+    "Team A1",
+    "Team A2",
+    "Team A3",
+    "Team A4",
+    "Team A5",
+    "Team A6"
+  ],
+  "Group_B": [
+    "Team B1",
+    "Team B2",
+    "Team B3",
+    "Team B4",
+    "Team B5",
+    "Team B6"
+  ],
+  "Group_C": [
+    "Team C1",
+    "Team C2",
+    "Team C3",
+    "Team C4",
+    "Team C5",
+    "Team C6"
+  ],
+  "Group_D": [
+    "Team D1",
+    "Team D2",
+    "Team D3",
+    "Team D4",
+    "Team D5",
+    "Team D6"
+  ],
+  "Group_2A": [
+    "1. Place A",
+    "1. Place D",
+    "2. Place B",
+    "2. Place C",
+    "3. Place A",
+    "3. Place D"
+  ],
+  "Group_2B": [
+    "1. Place B",
+    "1. Place C",
+    "2. Place A",
+    "2. Place D",
+    "3. Place B",
+    "3. Place C"
+  ],
+  "Quarter_1": [
+    "1. Place 2A",
+    "4. Place 2B"
+  ],
+  "Quarter_2": [
+    "2. Place 2B",
+    "3. Place 2A"
+  ],
+  "Quarter_3": [
+    "1. Place 2B",
+    "4. Place 2A"
+  ],
+  "Quarter_4": [
+    "2. Place 2A",
+    "3. Place 2B"
+  ],
+  "Semi_1": [
+    "Winner Quarter 1",
+    "Winner Quarter 2"
+  ],
+  "Semi_2": [
+    "Winner Quarter 3",
+    "Winner Quarter 4"
+  ],
+  "Final": [
+    "Winner Semi 1",
+    "Winner Semi 2"
+  ],
+  "ThirdPlace": [
+    "Looser Semi 1",
+    "Looser Semi 2"
+  ],
+  "Winer": "Winner Final"
+}
