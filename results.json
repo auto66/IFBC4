@@ -2,7 +2,8 @@
   "Group_A": [
     ["Team A", "Team B", "Team A", "false", "51", "80"],
     ["Team A", "Team C", "Team C", "false", "54", "52"],
-    ["Team B", "Team C", "Team B", "true", "42", "30"]
+    ["Team B", "Team C", "Team B", "true", "42", "30"],
+    ["Team D", "Team C", "Team B", "true", "42", "29"]
   ],
   "Group_B": [],
   "Group_C": [],
