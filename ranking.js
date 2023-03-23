@@ -38,7 +38,7 @@ const sortTable = (data) => {
     });
 
     resp[winner].wins++;
-    if(shootdown) resp[winner].shootdowns++;
+    if(shootdown === 'true') resp[winner].shootdowns++;
     resp[winner].rounds += parseInt(rounds);
     resp[winner].loss += parseInt(loss);
   });
