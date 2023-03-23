@@ -44,7 +44,7 @@ const sortTable = (data) => {
   });
 
   const sorted = Object.values(resp).sort((a, b) => {
-    return b.wins - a.wins || b.shootdowns - a.shootdowns || b.rounds - a.rounds || a.loss - b.loss;
+    return b.wins - a.wins || b.shootdowns - a.shootdowns || a.rounds - b.rounds || a.loss - b.loss;
   });
 
   return sorted.map((item, index) => [
