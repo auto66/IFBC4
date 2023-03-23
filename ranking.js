@@ -1,6 +1,6 @@
 const populateTable = (tableName, tableData) => {
   const table = document.getElementById(tableName);
-  const tableHead = ['Rank', 'Team', 'Count', 'Wins', 'Shootouts', 'Rounds', 'Loss'];
+  const tableHead = ['Rank', 'Team', 'Count', 'Wins', 'Shootouts', 'Rounds', 'HP-Loss'];
 
   table.innerHTML = `
     <thead>
