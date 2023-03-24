@@ -1,6 +1,6 @@
 {
   "Group_A": [
-    ["Team 1", "Team 2", "Team 2", "true", "53", "44"],
+    ["Team 1", "Team 2", "Team 2", "true", "53", "44,5"],
     ["Team 3", "Team 1", "Team 3", "true", "53", "97"],
     ["Team 2", "Team 3", "Team 2", "true", "54", "85"],
     ["Team 2", "Team 1", "Team 2", "true", "54", "83"],
