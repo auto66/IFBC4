@@ -44,18 +44,35 @@ const sortTable = (data) => {
   });
 
   const sorted = Object.values(resp).sort((a, b) => {
-    return b.wins - a.wins || b.shootdowns - a.shootdowns || a.rounds - b.rounds || a.loss - b.loss;
+    return b.wins - a.wins || b.shootdowns - a.shootdowns || a.rounds - b.rounds || a.loss - b.loss || b.name - a.name;
   });
 
-  return sorted.map((item, index) => [
-    index + 1,
-    item.name,
-    item.battles,
-    item.wins,
-    item.shootdowns,
-    item.rounds,
-    `${item.loss}%`
-  ]);
+  const checkEqual = (arr1, arr2) => {
+    if (!arr2) return false;
+    for (const a in arr1) {
+      if (!(a == 0 || a == 1 || a == 2)) {
+        if (arr1[a] != arr2[a]) return false;
+      }
+    }
+    return true;
+  }
+
+  let res = [];
+  sorted.forEach((item, index) => {
+    const row = [
+      index + 1,
+      item.name,
+      item.battles,
+      item.wins,
+      item.shootdowns,
+      item.rounds,
+      `${item.loss}%`,
+    ];
+    const lastRow = res[res.length - 1];
+    if (checkEqual(row, lastRow)) row[0] = lastRow[0];
+    res.push(row);
+  });
+  return res;
 };
 
 fetch('results.json')
