@@ -8,12 +8,12 @@
     ["Team 3", "Team 2", "Team 2", "true", "52", "53.4"]
   ],
   "Group_B": [
-    ["Team 1", "Team 3", "Team 1", "true", "54", "94.7"],
-    ["Team 3", "Team 2", "Team 2", "true", "51", "67.6"],
+    ["Team 1", "Team 3", "Team 1", "false", "54", "94.7"],
+    ["Team 3", "Team 2", "Team 2", "false", "51", "67.6"],
     ["Team 2", "Team 1", "Team 2", "true", "45", "83.7"],
     ["Team 3", "Team 1", "Team 1", "true", "50", "68.3"],
     ["Team 2", "Team 3", "Team 2", "true", "44", "78.2"],
-    ["Team 1", "Team 2", "Team 1", "true", "54", "96.2"]
+    ["Team 1", "Team 2", "Team 1", "false", "54", "96.2"]
   ],
   "Group_C": [
     ["Team 2", "Team 3", "Team 2", "true", "54", "81.7"],
