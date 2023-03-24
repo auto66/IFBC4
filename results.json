@@ -1,26 +1,26 @@
 {
   "Group_A": [
     ["Team 1", "Team 2", "Team 2", "true", "53", "44.5"],
-    ["Team 3", "Team 1", "Team 3", "true", "53", "97"],
-    ["Team 2", "Team 3", "Team 2", "true", "54", "85"],
-    ["Team 2", "Team 1", "Team 2", "true", "54", "83"],
-    ["Team 1", "Team 3", "Team 1", "true", "54", "83"],
-    ["Team 3", "Team 2", "Team 2", "true", "52", "53"]
+    ["Team 3", "Team 1", "Team 3", "true", "53", "97.5"],
+    ["Team 2", "Team 3", "Team 2", "true", "54", "85.6"],
+    ["Team 2", "Team 1", "Team 2", "true", "54", "83.7"],
+    ["Team 1", "Team 3", "Team 1", "true", "54", "83.3"],
+    ["Team 3", "Team 2", "Team 2", "true", "52", "53.4"]
   ],
   "Group_B": [
-    ["Team 1", "Team 3", "Team 1", "true", "54", "94"],
-    ["Team 3", "Team 2", "Team 2", "true", "45", "83"],
-    ["Team 2", "Team 1", "Team 2", "true", "54", "85"],
-    ["Team 3", "Team 1", "Team 1", "true", "50", "68"],
-    ["Team 2", "Team 3", "Team 2", "true", "44", "78"],
-    ["Team 1", "Team 2", "Team 1", "true", "54", "96"]
+    ["Team 1", "Team 3", "Team 1", "true", "54", "94.7"],
+    ["Team 3", "Team 2", "Team 2", "true", "51", "67.6"],
+    ["Team 2", "Team 1", "Team 2", "true", "45", "83.7"],
+    ["Team 3", "Team 1", "Team 1", "true", "50", "68.3"],
+    ["Team 2", "Team 3", "Team 2", "true", "44", "78.2"],
+    ["Team 1", "Team 2", "Team 1", "true", "54", "96.2"]
   ],
   "Group_C": [
-    ["Team 2", "Team 3", "Team 2", "true", "54", "81"],
-    ["Team 1", "Team 2", "Team 1", "true", "54", "74"],
-    ["Team 3", "Team 1", "Team 3", "true", "54", "82"],
-    ["Team 3", "Team 2", "Team 3", "true", "54", "76"],
-    ["Team 2", "Team 1", "Team 2", "true", "54", "74"]
+    ["Team 2", "Team 3", "Team 2", "true", "54", "81.7"],
+    ["Team 1", "Team 2", "Team 1", "true", "54", "74.3"],
+    ["Team 3", "Team 1", "Team 3", "true", "54", "82.6"],
+    ["Team 3", "Team 2", "Team 3", "true", "54", "76.7"],
+    ["Team 2", "Team 1", "Team 2", "true", "54", "74.5"]
   ],
   "Group_D": [],
   "Group_2A": [
