@@ -75,13 +75,24 @@ const sortTable = (data) => {
   return res;
 };
 
+const populateDiv = (divId, data) => {
+  const div = document.getElementById(divId);
+
+  div.innerHTML = 
+    data ? data.map(row => `
+      <div>
+        ${row[2]} won in ${row[4]} Rounds ${row[3] === 'true' ? 'with shootout' : row[2] === row[1] ? 'by taking the flag' : 'by holding the fort'} and ${row[5]}% HP-Loss
+      </div>
+    `).join('') : '';
+};
+
 fetch('results.json')
   .then(response => response.json())
   .then(data => {
     const ids = ['A', 'B', 'C', 'D', '2A', '2B'];
     for (const id of ids) {
-      const name = 'Group_' + id;
-      populateTable(name, sortTable(data[name]));
+      populateTable('Group_' + id, sortTable(data['Group_' + id]));
+      populateDiv('Results_' + id, data['Group_' + id]);
     }
   })
   .catch(error => console.error(error));
